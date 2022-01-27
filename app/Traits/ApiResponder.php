@@ -5,7 +5,7 @@ namespace App\Traits;
 use Carbon\Carbon;
 
 
-trait ApiResponser{
+trait ApiResponder{
 	/**
      * Return a success JSON response.
      *

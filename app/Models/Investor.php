@@ -8,4 +8,9 @@ use Illuminate\Database\Eloquent\Model;
 class Investor extends Model
 {
     use HasFactory;
+
+     protected $fillable = [
+        'fullname',
+        'email',
+    ];
 }
